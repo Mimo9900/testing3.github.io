@@ -1,0 +1,34 @@
+
+
+
+@media(max-width: 428px) {
+    .header{
+      
+        margin: auto;
+    }
+
+    .search {
+        width: 70%;
+        height: 20px;
+    }
+    .search1{
+        height: 20px;
+        width: 60px;
+    }
+    .modal{
+        width: 80%;
+        height: 100vh;
+        margin: 10px  10px auto auto;
+    }
+    .detals-ofpeople{
+        margin: 20px  20px auto auto;
+        text-align: center;
+        height: auto;
+        width: auto;
+    }
+    .people {
+        height: auto;
+        width: auto;
+    }
+   
+}

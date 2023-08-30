@@ -1,0 +1,126 @@
+
+html {
+  font-size: 62.5%;
+}
+
+
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 90px;
+  width: 100%;
+  background-color: #0a0a0a;
+  color: #fff;
+
+}
+
+a {
+  color: #ffff;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.input-bar {
+  text-align: center;
+  padding: 50px;
+  height: 15vh;
+  margin-bottom: 50px;
+}
+
+.search {
+  display: inline-block;
+  height: 60px;
+  width: 600px;
+  font-weight: 600;
+}
+
+.search1 {
+  height: 60px;
+  width: 90px;
+  margin-bottom: 20px ;
+}
+
+.people{
+  text-align: center;
+  background-color: gray;
+  color: #ffff;
+  letter-spacing: 1.5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  margin: auto;
+  width: 60vh;
+  padding: 6px;
+}
+ 
+.main {
+  margin-top: 200px;
+  width: 100%;
+  height: 50vh;
+  background-color: #0a0a0a;
+  color: #ffff; 
+  text-align: center;
+}
+
+.total {
+  margin: 30px;
+ font-size: 20px;
+ position: relative;
+ cursor: pointer;
+ 
+}
+
+.home {
+  margin-right: auto;
+}
+
+.modal {
+
+
+  position: absolute;
+  right: 10px;
+  height: 50vh;
+  width: 50vh;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #0a0a0a;
+}
+
+.close-modal {
+  width: 40px;
+  height: 20px;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.detals-ofpeople {
+  height: 20vh;
+  margin: auto;
+  width: 70vh;
+  background-color: black;
+  padding: 20px;
+}
+
+.showProduct {
+  text-align: center;
+}
+
+.showparent {
+  width: 100%;
+ 
+}
+
+.inputsparent {
+  display: grid;
+  grid-template-rows: 2fr ;
+
+}
